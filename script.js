@@ -3,19 +3,10 @@ btn.onclick = function () {
     txt.value = rot13(txt.value);
 }
 
-// let btn2 = document.getElementById('decipher');
-// btn2.onclick = function () {
-//     txt.value = rot13(txt.value);
-// }
-
 let txt = document.getElementById('text');
 
 
-
-// let out = document.getElementById('output');
-
 function rot13(message) {
-    //your code here
     let arr = message.split(' ');
     let newArr = [];
     for (let item of arr) {
