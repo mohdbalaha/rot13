@@ -1,0 +1,27 @@
+.main{
+    text-align:center; 
+    background-image:url("./img/background.png");
+}
+
+.fieldset{
+    margin: 20px 60px;
+}
+
+.img{
+    padding: 15px;
+    border: 3px dotted black;
+}
+
+.form{
+    width:600px;
+    margin:20px auto;
+    border: 3px dotted black;
+
+}
+
+.description{
+    width:500px;
+    margin:20px auto;
+    padding:20px;
+    border: 3px dotted black;
+}
