@@ -7,36 +7,34 @@
 </head>
 
 <body>
-    <div class='main'>
-        <h1 style='border:3px dotted black '>Rot13</h1>
-
-        <h2>Description:</h2>
-        <p class='description'>
-                ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple 
-                letter substitution cipher that replaces a letter with the 13th letter after it, in the alphabet. 
-                ROT13 is a special case of the Caesar cipher, developed in ancient Rome.<br>
-                Source: https://www.wikipedia.com
-            <br>
-        </p>
-
-        <img class='img' src='./img/ROT13_table.png'>
-
-        <div class='form'>
-            <p>Please enter a message:</p>
-            <textarea id="text" cols="60" rows="20"></textarea>
-            <br>
-            <br>
-            <button id="cipher">cipher / decipher</button>
-            <br>
-            <br>
-        </div>
-
-
-        <br>
-        <br>
-        <p>Designed and codded by Nour Balaha.</p>
-        <script type="text/javascript" src="script.js"></script>
-    </div>
+    <header>
+        <h1>Rot13</h1>
+    </header>
+    <section id="description">
+        <article>
+            <h2>Description:</h2>
+            <p>
+                ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher that replaces a letter
+                with the 13th letter after it, in the alphabet. ROT13 is a special case of the Caesar cipher, developed in
+                ancient Rome.
+            </p>
+            <p class="source">-wikipedia</p>
+        </article>
+        <figure>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ROT13_table_with_example.svg/320px-ROT13_table_with_example.svg.png'>
+        </figure>
+    </section>
+    <section id="form">
+        <form>
+        <h2>Please enter a message to cipher:</h2>
+        <textarea id="text" placeholder="message here"></textarea>
+        <button id="cipher">cipher / decipher</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copyMohamad Balaha</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>

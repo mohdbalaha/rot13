@@ -1,27 +1,42 @@
-.main{
-    text-align:center; 
-    background-image:url("./img/background.png");
+body{
+    text-align:center;
+    background-color:lightgray;
+    margin:5px 0;
 }
-
-.fieldset{
-    margin: 20px 60px;
+header{
+    background-color:lightcyan;
+    padding:1% 0;
 }
-
-.img{
-    padding: 15px;
-    border: 3px dotted black;
+header h1{
+    font-size:250%;
 }
-
-.form{
-    width:600px;
-    margin:20px auto;
-    border: 3px dotted black;
-
+#description{
+    padding:5% 15%;
+    background-color:lightgoldenrodyellow;
+    text-align:center;
 }
+#form{
+    padding:2% 0;
+    background-color:lightpink;
+    text-align:center;
+}
+#cipher{
+    display:block;
+    width:50%;
+    margin: 1% 25%;
+height:40px;
+}
+#text{
+    display:block;
+    width:60%;
+    margin-left: 20%;
+    font-size:150%
+}
+.source{
+    text-align:right;
+}
+footer{
+    background-color:lightgreen;
+    padding:1% 0;
 
-.description{
-    width:500px;
-    margin:20px auto;
-    padding:20px;
-    border: 3px dotted black;
 }
